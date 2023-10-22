@@ -20,3 +20,15 @@
 }
 
 /* Header */
+
+.navbar {
+    background-color: var(--off-white);
+}
+
+a.nav-link {
+    background-color: var(--black);
+}
+
+img.logo {
+    width: 18.75rem;
+}
