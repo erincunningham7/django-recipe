@@ -5,6 +5,7 @@
 {% block title %}{% trans "Sign Out" %}{% endblock head_title %}
 
 {% block content %}
+<div class="div container text-center">
 <h1>{% trans "Sign Out" %}</h1>
 
 <p>{% trans 'Are you sure you want to sign out?' %}</p>
@@ -16,6 +17,6 @@
   {% endif %}
   <button type="submit">{% trans 'Sign Out' %}</button>
 </form>
-
+</div>
 
 {% endblock content %}
