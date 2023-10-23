@@ -67,3 +67,8 @@ a.nav-link {
 img.logo {
     width: 18.75rem;
 }
+
+.active {
+    border-bottom: 2px solid var(--blue);
+    font-weight: 500;
+}
